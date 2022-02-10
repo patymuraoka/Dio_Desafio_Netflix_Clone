@@ -1,0 +1,280 @@
+:root{
+    --laranja:#f39256;
+    --cinza:#252537;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+   background-color: var(--cinza);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+header{
+    background-color: var(--cinza);
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+header .logo{
+    margin-left: 5px;
+    color: var(--laranja);
+    font-family: 'Arial Black', Times;
+    font-size:35px;
+    text-transform: uppercase;
+}
+
+input { 
+    border: none;
+    margin-right: 0;
+    height: 40px;
+    padding: 0 15px;
+    background: 0 0;
+}
+    
+.search-button{
+    border: none;
+    padding: 0;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 14px;
+    background: 0 0;
+}
+
+#searchform{
+    background: #FFFFFFCC;
+    margin-right: 15px;
+    padding: 0;
+    border-radius: 5px solid black;
+    font-size: 100%;
+}
+  
+    
+header nav a{
+    text-decoration:none;
+    color:#FFFFFFCC;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+.receita-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/Macarons.png');
+    height:400px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.receita-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.receita-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: whitesmoke;
+    border:none;
+    color: black;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:var(--laranja);
+    color:white;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.receita-principal .container{
+    width: 70%;
+}
+
+
+.box-receita{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.box-receita:hover{
+    border: 5px solid var(--laranja);
+}
+
+h3{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    
+}
+
+.tipos h3{
+    border-left: 5px solid var(--laranja);
+    padding-left: 5px;
+}
+
+.tipos{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.carrosel-receitas{
+    margin-top:5px;
+}
+
+
+.salgadas{
+    background: url('/img/Receitas_salgadas.png');
+    height: 600px;
+    background-size:cover;
+}
+
+.item-receita{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+
+.item-receita:hover{
+    border: 5px solid var(--laranja);
+}
+
+.topico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 30%;
+    border-bottom: 1px dashed #f39256;
+    width: 97%;
+    
+}
+
+.clique{
+    padding: 5px;
+    
+}
+
+.recipe{
+    padding: 25px;
+    background-color: var(--laranja);
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.receitas{
+    padding-left: 25px;
+}
+
+.main-content{
+    background-color: aliceblue;
+    color: #252537;
+    margin: 100px;
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.post-header{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.titulo {
+    padding: 10px;
+
+}
+
+
+.img-post{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin: 20px 0 20px 25%
+}
+
+.section,  .origem, .curiosidades, .dicas, .fazer{
+    margin: 50px;
+}
+
+.text{
+    line-height: 1.6;
+}
+
+.imp{
+    margin-bottom: 10px;
+}
+
+.video{
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
